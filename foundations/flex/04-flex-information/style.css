@@ -5,11 +5,36 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text {
+  width: 200px;
+  color: rgb(65, 65, 65);
 }
 
 /* do not edit this footer */
